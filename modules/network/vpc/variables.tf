@@ -10,24 +10,24 @@ variable "cidr" {
 
 variable "tenancy" {
   description = "Tenancy of instances spin up within VPC"
-  default = "default"
-  
+  default     = "default"
+
 }
 
 variable "dns_support" {
   description = "Whether or not the VPC has DNS support"
-  default = true 
-  
+  default     = true
+
 }
 
 variable "dns_hostnames" {
-  default = true
+  default     = true
   description = " Whether or not the VPC has DNS hostname support"
-  
+
 }
 
 variable "environment" {
   description = "Name of environment, used for tagging resources"
-  default = "develop"
-  
+  default     = "develop"
+
 }
